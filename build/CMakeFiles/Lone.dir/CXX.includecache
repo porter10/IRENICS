@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Libraries/include/glad/glad.h
+KHR/khrplatform.h
+-
+
+/home/tiki/Documents/Coding/C++/Game Engine Development/GE Projects/Lone Engine(VSC)/Graphic/renderer.cpp
+renderer.h
+/home/tiki/Documents/Coding/C++/Game Engine Development/GE Projects/Lone Engine(VSC)/Graphic/renderer.h
+
+/home/tiki/Documents/Coding/C++/Game Engine Development/GE Projects/Lone Engine(VSC)/Graphic/renderer.h
+glad/glad.h
+-
+GL/gl.h
+-
+iostream
+-
+
